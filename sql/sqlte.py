@@ -1,7 +1,7 @@
 #coding:utf-8
 import MySQLdb
 
-db = MySQLdb.connect('localhost','root','0618Qiaohui','bigdata')
+db = MySQLdb.connect('localhost','root','root','bigdata')
 cursor = db.cursor()
 
 #插入
